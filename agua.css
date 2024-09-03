@@ -1,0 +1,35 @@
+::selection { background: #ec0 }
+:any-link { color: darkblue }
+
+html {
+  background: deepskyblue;
+  color: #220222;
+}
+
+h1 a { background: turquoise }
+h1 mark { background: skyblue }
+
+@media (prefers-contrast: more) {
+  html { 
+    background: powderblue;
+    color: #110111;
+  }
+}
+
+.swell {
+  box-shadow:
+    1em -1em 1em 1em skyblue,
+    1em -2em 2em 1em #1ed,
+    2em -3em 3em 2em #ec0,
+    3em -5em 5em 3em #ee1,
+    5em -8em 8em 5em mediumaquamarine;
+}
+
+.smell {
+  box-shadow:
+    1em 1em 1em 1em salmon,
+    1em 2em 2em 1em coral,
+    2em 3em 3em 2em sandybrown,
+    3em 5em 5em 3em hotpink,
+    5em 8em 8em 5em deeppink;
+}
